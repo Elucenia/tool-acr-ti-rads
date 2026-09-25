@@ -1,0 +1,131 @@
+[
+  {
+    "label": "Cisto anecoico simples: 0 ponto, TR1",
+    "input": {
+      "comp": "cistico",
+      "eco": "anecoico",
+      "forma": "larga",
+      "margem": "lisa"
+    },
+    "expected": {
+      "raw": {
+        "score": 0,
+        "tr": 1
+      },
+      "main": "TR1",
+      "level": "low"
+    },
+    "originalInput": {
+      "comp": "cistico",
+      "eco": "anecoico",
+      "forma": "larga",
+      "margem": "lisa"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Espongiforme isoecoico: 1 ponto, TR2",
+    "input": {
+      "comp": "espongiforme",
+      "eco": "hiper",
+      "forma": "larga",
+      "margem": "lisa"
+    },
+    "expected": {
+      "raw": {
+        "score": 1,
+        "tr": 2
+      },
+      "level": "low"
+    },
+    "originalInput": {
+      "comp": "espongiforme",
+      "eco": "hiper",
+      "forma": "larga",
+      "margem": "lisa"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Corte: misto, isoecoico, macrocalcificação, 2,5 cm: 3 pontos, TR3, PAAF",
+    "input": {
+      "comp": "misto",
+      "eco": "hiper",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": true,
+      "tamanho": 2.5
+    },
+    "expected": {
+      "raw": {
+        "score": 3,
+        "tr": 3
+      },
+      "level": "mid",
+      "verdict": "PAAF indicada"
+    },
+    "originalInput": {
+      "comp": "misto",
+      "eco": "hiper",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": true,
+      "tamanho": 2.5
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Sólido hipoecoico liso de 1,2 cm: 4 pontos, TR4, seguimento",
+    "input": {
+      "comp": "solido",
+      "eco": "hipo",
+      "forma": "larga",
+      "margem": "lisa",
+      "tamanho": 1.2
+    },
+    "expected": {
+      "raw": {
+        "score": 4,
+        "tr": 4
+      },
+      "level": "mid",
+      "verdict": "seguimento"
+    },
+    "originalInput": {
+      "comp": "solido",
+      "eco": "hipo",
+      "forma": "larga",
+      "margem": "lisa",
+      "tamanho": 1.2
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Sólido, muito hipoecoico, mais alto que largo, irregular, puntiformes, 1,0 cm: 13 pontos, TR5, PAAF",
+    "input": {
+      "comp": "solido",
+      "eco": "muitohipo",
+      "forma": "alta",
+      "margem": "irregular",
+      "puntiforme": true,
+      "tamanho": 1
+    },
+    "expected": {
+      "raw": {
+        "score": 13,
+        "tr": 5
+      },
+      "level": "high",
+      "verdict": "PAAF indicada"
+    },
+    "originalInput": {
+      "comp": "solido",
+      "eco": "muitohipo",
+      "forma": "alta",
+      "margem": "irregular",
+      "puntiforme": true,
+      "tamanho": 1
+    },
+    "expandedZeroOptions": []
+  }
+]
