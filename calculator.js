@@ -1,11 +1,11 @@
-/* tool-acr-ti-rads · Elucenia · https://github.com/Elucenia/tool-acr-ti-rads
-   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+/* tool-acr-ti-rads · ELUCENIA · https://github.com/Elucenia/tool-acr-ti-rads
+   Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
    Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"acr-ti-rads","title":"ACR TI-RADS","fields":[["comp","Composição","radio",{"opts":{"cistico":"Cístico ou quase todo cístico (0)","espongiforme":"Espongiforme (0)","misto":"Misto sólido-cístico (1)","solido":"Sólido ou quase todo sólido (2)"}}],["eco","Ecogenicidade","radio",{"opts":{"anecoico":"Anecoico (0)","hiper":"Hiper ou isoecoico (1)","hipo":"Hipoecoico (2)","muitohipo":"Muito hipoecoico (3)"}}],["forma","Forma (no corte transversal)","radio",{"opts":{"larga":"Mais largo que alto (0)","alta":"Mais alto que largo (3)"}}],["margem","Margem","radio",{"opts":{"lisa":"Lisa (0)","maldefinida":"Mal definida (0)","irregular":"Lobulada ou irregular (2)","extra":"Extensão extratireoidiana (3)"}}],["macro","Focos ecogênicos: macrocalcificações (1)","chk",{"pts":1}],["periferica","Focos ecogênicos: calcificações periféricas (em anel) (2)","chk",{"pts":2}],["puntiforme","Focos ecogênicos: puntiformes (3)","chk",{"pts":3}],["tamanho","Maior diâmetro do nódulo (opcional)","num",{"min":0.1,"max":10,"step":0.1,"unit":"cm","ph":"1,5","opt":true}]],"config":null,"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
