@@ -1,0 +1,433 @@
+[
+  {
+    "name": "Reject null input",
+    "input": null,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject array input",
+    "input": [],
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject string input",
+    "input": "invalid",
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject numeric input",
+    "input": 1,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field comp",
+    "input": {
+      "eco": "anecoico",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "comp"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field comp",
+    "input": {
+      "comp": "",
+      "eco": "anecoico",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "comp"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option comp",
+    "input": {
+      "comp": "__ELUCENIA_INVALID_OPTION__",
+      "eco": "anecoico",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "comp"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field eco",
+    "input": {
+      "comp": "cistico",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "eco"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field eco",
+    "input": {
+      "comp": "cistico",
+      "eco": "",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "eco"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option eco",
+    "input": {
+      "comp": "cistico",
+      "eco": "__ELUCENIA_INVALID_OPTION__",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "eco"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field forma",
+    "input": {
+      "comp": "cistico",
+      "eco": "anecoico",
+      "margem": "lisa",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "forma"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field forma",
+    "input": {
+      "comp": "cistico",
+      "eco": "anecoico",
+      "forma": "",
+      "margem": "lisa",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "forma"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option forma",
+    "input": {
+      "comp": "cistico",
+      "eco": "anecoico",
+      "forma": "__ELUCENIA_INVALID_OPTION__",
+      "margem": "lisa",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "forma"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field margem",
+    "input": {
+      "comp": "cistico",
+      "eco": "anecoico",
+      "forma": "larga",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "margem"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field margem",
+    "input": {
+      "comp": "cistico",
+      "eco": "anecoico",
+      "forma": "larga",
+      "margem": "",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "margem"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option margem",
+    "input": {
+      "comp": "cistico",
+      "eco": "anecoico",
+      "forma": "larga",
+      "margem": "__ELUCENIA_INVALID_OPTION__",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "margem"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid boolean macro",
+    "input": {
+      "comp": "cistico",
+      "eco": "anecoico",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": "2",
+      "periferica": false,
+      "puntiforme": false
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "macro"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid boolean periferica",
+    "input": {
+      "comp": "cistico",
+      "eco": "anecoico",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": false,
+      "periferica": "2",
+      "puntiforme": false
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "periferica"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid boolean puntiforme",
+    "input": {
+      "comp": "cistico",
+      "eco": "anecoico",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": "2"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "puntiforme"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"NaN\" tamanho",
+    "input": {
+      "comp": "cistico",
+      "eco": "anecoico",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false,
+      "tamanho": "NaN"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "tamanho"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"Infinity\" tamanho",
+    "input": {
+      "comp": "cistico",
+      "eco": "anecoico",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false,
+      "tamanho": "Infinity"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "tamanho"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"1e309\" tamanho",
+    "input": {
+      "comp": "cistico",
+      "eco": "anecoico",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false,
+      "tamanho": "1e309"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "tamanho"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"invalid\" tamanho",
+    "input": {
+      "comp": "cistico",
+      "eco": "anecoico",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false,
+      "tamanho": "invalid"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "tamanho"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric {} tamanho",
+    "input": {
+      "comp": "cistico",
+      "eco": "anecoico",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false,
+      "tamanho": {}
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "tamanho"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric true tamanho",
+    "input": {
+      "comp": "cistico",
+      "eco": "anecoico",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false,
+      "tamanho": true
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "tamanho"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject below documented minimum tamanho",
+    "input": {
+      "comp": "cistico",
+      "eco": "anecoico",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false,
+      "tamanho": -0.9
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "tamanho"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject above documented maximum tamanho",
+    "input": {
+      "comp": "cistico",
+      "eco": "anecoico",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false,
+      "tamanho": 11
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "tamanho"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  }
+]

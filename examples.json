@@ -1,11 +1,23 @@
 [
   {
-    "label": "Cisto anecoico simples: 0 ponto, TR1",
-    "input": {
+    "id": "acr-ti-rads",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "Cisto anecoico simples: 0 ponto, TR1",
+    "originalInput": {
       "comp": "cistico",
       "eco": "anecoico",
       "forma": "larga",
       "margem": "lisa"
+    },
+    "input": {
+      "comp": "cistico",
+      "eco": "anecoico",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false
     },
     "expected": {
       "raw": {
@@ -15,46 +27,98 @@
       "main": "TR1",
       "level": "low"
     },
-    "originalInput": {
-      "comp": "cistico",
-      "eco": "anecoico",
-      "forma": "larga",
-      "margem": "lisa"
+    "recordedResult": {
+      "main": [
+        "TR1",
+        ""
+      ],
+      "label": "ACR TI-RADS",
+      "raw": {
+        "score": 0,
+        "tr": 1,
+        "paaf": false
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Espongiforme isoecoico: 1 ponto, TR2",
-    "input": {
+    "id": "acr-ti-rads",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "Espongiforme isoecoico: 0 ponto, TR1 (não somar outras categorias)",
+    "originalInput": {
       "comp": "espongiforme",
       "eco": "hiper",
       "forma": "larga",
       "margem": "lisa"
+    },
+    "input": {
+      "comp": "espongiforme",
+      "eco": "hiper",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false
     },
     "expected": {
       "raw": {
-        "score": 1,
-        "tr": 2
+        "score": 0,
+        "tr": 1
       },
+      "main": "TR1",
       "level": "low"
     },
-    "originalInput": {
-      "comp": "espongiforme",
-      "eco": "hiper",
-      "forma": "larga",
-      "margem": "lisa"
+    "recordedResult": {
+      "main": [
+        "TR1",
+        ""
+      ],
+      "label": "ACR TI-RADS",
+      "raw": {
+        "score": 0,
+        "tr": 1,
+        "paaf": false
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Corte: misto, isoecoico, macrocalcificação, 2,5 cm: 3 pontos, TR3, PAAF",
-    "input": {
+    "id": "acr-ti-rads",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "Corte: misto, isoecoico, macrocalcificação, 2,5 cm: 3 pontos, TR3, PAAF",
+    "originalInput": {
       "comp": "misto",
       "eco": "hiper",
       "forma": "larga",
       "margem": "lisa",
       "macro": true,
       "tamanho": 2.5
+    },
+    "input": {
+      "comp": "misto",
+      "eco": "hiper",
+      "forma": "larga",
+      "margem": "lisa",
+      "macro": true,
+      "tamanho": 2.5,
+      "periferica": false,
+      "puntiforme": false
     },
     "expected": {
       "raw": {
@@ -64,24 +128,48 @@
       "level": "mid",
       "verdict": "PAAF indicada"
     },
-    "originalInput": {
-      "comp": "misto",
-      "eco": "hiper",
-      "forma": "larga",
-      "margem": "lisa",
-      "macro": true,
-      "tamanho": 2.5
+    "recordedResult": {
+      "main": [
+        "TR3",
+        ""
+      ],
+      "label": "ACR TI-RADS",
+      "raw": {
+        "score": 3,
+        "tr": 3,
+        "paaf": true
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Sólido hipoecoico liso de 1,2 cm: 4 pontos, TR4, seguimento",
-    "input": {
+    "id": "acr-ti-rads",
+    "kind": "native-source-reference",
+    "index": 3,
+    "name": "Sólido hipoecoico liso de 1,2 cm: 4 pontos, TR4, seguimento",
+    "originalInput": {
       "comp": "solido",
       "eco": "hipo",
       "forma": "larga",
       "margem": "lisa",
       "tamanho": 1.2
+    },
+    "input": {
+      "comp": "solido",
+      "eco": "hipo",
+      "forma": "larga",
+      "margem": "lisa",
+      "tamanho": 1.2,
+      "macro": false,
+      "periferica": false,
+      "puntiforme": false
     },
     "expected": {
       "raw": {
@@ -91,24 +179,49 @@
       "level": "mid",
       "verdict": "seguimento"
     },
-    "originalInput": {
-      "comp": "solido",
-      "eco": "hipo",
-      "forma": "larga",
-      "margem": "lisa",
-      "tamanho": 1.2
+    "recordedResult": {
+      "main": [
+        "TR4",
+        ""
+      ],
+      "label": "ACR TI-RADS",
+      "raw": {
+        "score": 4,
+        "tr": 4,
+        "paaf": false
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Sólido, muito hipoecoico, mais alto que largo, irregular, puntiformes, 1,0 cm: 13 pontos, TR5, PAAF",
-    "input": {
+    "id": "acr-ti-rads",
+    "kind": "native-source-reference",
+    "index": 4,
+    "name": "Sólido, muito hipoecoico, mais alto que largo, irregular, puntiformes, 1,0 cm: 13 pontos, TR5, PAAF",
+    "originalInput": {
       "comp": "solido",
       "eco": "muitohipo",
       "forma": "alta",
       "margem": "irregular",
       "puntiforme": true,
       "tamanho": 1
+    },
+    "input": {
+      "comp": "solido",
+      "eco": "muitohipo",
+      "forma": "alta",
+      "margem": "irregular",
+      "puntiforme": true,
+      "tamanho": 1,
+      "macro": false,
+      "periferica": false
     },
     "expected": {
       "raw": {
@@ -118,14 +231,25 @@
       "level": "high",
       "verdict": "PAAF indicada"
     },
-    "originalInput": {
-      "comp": "solido",
-      "eco": "muitohipo",
-      "forma": "alta",
-      "margem": "irregular",
-      "puntiforme": true,
-      "tamanho": 1
+    "recordedResult": {
+      "main": [
+        "TR5",
+        ""
+      ],
+      "label": "ACR TI-RADS",
+      "raw": {
+        "score": 13,
+        "tr": 5,
+        "paaf": true
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

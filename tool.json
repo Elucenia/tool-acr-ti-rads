@@ -5,13 +5,13 @@
     "short": "Nódulo de tireoide: categoria e indicação de PAAF",
     "desc": "ACR TI-RADS: pontua os achados ultrassonográficos do nódulo de tireoide (TR1 a TR5) e indica PAAF ou seguimento conforme o tamanho.",
     "lead": "Classifica o nódulo de tireoide pelos cinco grupos de achados ultrassonográficos do ACR e define, pelo maior diâmetro, se há indicação de punção (PAAF) ou de seguimento.",
+    "kind": "Calculadora",
     "spec": [
       "radiologia-e-diagnostico-por-imagem",
       "cirurgia-de-cabeca-e-pescoco",
       "endocrinologia-e-metabologia",
       "patologia"
     ],
-    "tier": 1,
     "fields": [
       [
         "comp",
@@ -67,25 +67,19 @@
         "macro",
         "Focos ecogênicos: macrocalcificações (1)",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "periferica",
         "Focos ecogênicos: calcificações periféricas (em anel) (2)",
         "chk",
-        {
-          "pts": 2
-        }
+        {}
       ],
       [
         "puntiforme",
         "Focos ecogênicos: puntiformes (3)",
         "chk",
-        {
-          "pts": 3
-        }
+        {}
       ],
       [
         "tamanho",
@@ -101,56 +95,19 @@
         }
       ]
     ],
-    "formula": "<p>Soma dos pontos de composição, ecogenicidade, forma, margem e focos ecogênicos (nestes, some todos os tipos presentes; artefato em cauda de cometa grande ou ausência de focos = 0).</p><p>TR1: 0 ponto · TR2: 2 pontos · TR3: 3 pontos · TR4: 4 a 6 pontos · TR5: 7 ou mais.</p>",
-    "table": [
-      [
-        "Categoria",
-        "Pontos",
-        "PAAF se",
-        "Seguimento se"
-      ],
-      [
-        "TR1 · benigno",
-        "0",
-        "Não",
-        "Não"
-      ],
-      [
-        "TR2 · não suspeito",
-        "2",
-        "Não",
-        "Não"
-      ],
-      [
-        "TR3 · levemente suspeito",
-        "3",
-        "≥ 2,5 cm",
-        "≥ 1,5 cm (US em 1, 3 e 5 anos)"
-      ],
-      [
-        "TR4 · moderadamente suspeito",
-        "4–6",
-        "≥ 1,5 cm",
-        "≥ 1,0 cm (US em 1, 2, 3 e 5 anos)"
-      ],
-      [
-        "TR5 · altamente suspeito",
-        "≥ 7",
-        "≥ 1,0 cm",
-        "≥ 0,5 cm (US anual por até 5 anos)"
-      ]
-    ],
-    "tips": [
-      "Espongiforme é o nódulo com mais de 50% de pequenos espaços císticos; poucos cistos em um nódulo sólido não o tornam espongiforme.",
-      "Artefato em cauda de cometa grande (&gt; 1 mm, em V) dentro de componente cístico é coloide e vale 0; focos puntiformes sem artefato no componente sólido valem 3.",
-      "Calcificação periférica interrompida com extrusão de tecido mole deve ser vista como suspeita, mesmo que o total de pontos seja baixo.",
-      "Linfonodo cervical suspeito muda a conduta: puncione o linfonodo, independentemente da categoria do nódulo.",
-      "Não mais que dois nódulos com maior pontuação devem ser puncionados; com múltiplos nódulos, escolha pela categoria, não pelo tamanho."
-    ],
+    "formula": "<p>Nódulos císticos ou quase totalmente císticos e espongiformes recebem 0 pontos (TR1); não se somam pontos das outras categorias. </p><p>Soma dos pontos de composição, ecogenicidade, forma, margem e focos ecogênicos (nestes, some todos os tipos presentes; artefato em cauda de cometa grande ou ausência de focos = 0).</p><p>TR1: 0 ponto · TR2: 2 pontos · TR3: 3 pontos · TR4: 4 a 6 pontos · TR5: 7 ou mais.</p>",
     "sources": [
       [
         "Tessler FN et al. ACR Thyroid Imaging, Reporting and Data System (TI-RADS): white paper of the ACR TI-RADS Committee. J Am Coll Radiol, 2017.",
         "https://doi.org/10.1016/j.jacr.2017.01.046"
+      ],
+      [
+        "https://radssupport.acr.org/support/solutions/articles/11000071474-acr-ti-rads-faq",
+        "https://radssupport.acr.org/support/solutions/articles/11000071474-acr-ti-rads-faq"
+      ],
+      [
+        "https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/TI-RADS/Sonographers-Worksheet-TI-RADS.pdf",
+        "https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/TI-RADS/Sonographers-Worksheet-TI-RADS.pdf"
       ]
     ],
     "cases": [
@@ -172,7 +129,7 @@
         }
       ],
       [
-        "Espongiforme isoecoico: 1 ponto, TR2",
+        "Espongiforme isoecoico: 0 ponto, TR1 (não somar outras categorias)",
         {
           "comp": "espongiforme",
           "eco": "hiper",
@@ -181,9 +138,10 @@
         },
         {
           "raw": {
-            "score": 1,
-            "tr": 2
+            "score": 0,
+            "tr": 1
           },
+          "main": "TR1",
           "level": "low"
         }
       ],
@@ -244,9 +202,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -255,17 +210,240 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-03T19:09:01.297Z",
+      "total": 1035,
+      "passed": 1035,
+      "evidencePath": "reports/review-20261003/oncology-source-oracles.json",
+      "scope": "Composition override, additive point arithmetic and published category/diameter thresholds. Synthetic combinations do not establish ultrasound interpretation or clinical applicability.",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "ACR TI-RADS 2017; benign composition rule checked against ACR worksheet on 2026-10-03",
+    "limits": "A classificação ACR TI-RADS 2017 usa achados ultrassonográficos do nódulo e seu maior diâmetro. Composição cística ou espongiforme não recebe pontos dos demais grupos. A FAQ oficial distingue nódulos previamente biopsiados e nódulos positivos no PET: os resultados da biópsia e o contexto clínico podem modificar a conduta, e não são entradas desta calculadora. A categoria e os limiares de tamanho não constituem diagnóstico histológico.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:03.174Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Não há faixa etária, exclusões, tabela de pontos, limiares de tamanho ou regras de crescimento no resumo. Necessário ler o white paper/tabelas oficiais antes de preencher esses limites."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "primarySupplements": [
+        {
+          "url": "https://radssupport.acr.org/support/solutions/articles/11000071474-acr-ti-rads-faq",
+          "scope": "Official FAQ111/112/115/116 read, modified2026-01-12; not the full2017 paper."
+        },
+        {
+          "url": "https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/TI-RADS/Sonographers-Worksheet-TI-RADS.pdf",
+          "scope": "Official one-page worksheet composition instructions read; no rights authorization inferred."
+        }
+      ]
+    },
+    "versionEvidence": {
+      "status": "explicit-implemented-variant-and-existing-source-proofs-recorded",
+      "checkedAt": "2026-10-04T17:52:09.841Z",
+      "declaredMethodVersion": "ACR TI-RADS 2017; benign composition rule checked against ACR worksheet on 2026-10-03",
+      "implementedVariant": "Nódulos císticos ou quase totalmente císticos e espongiformes recebem 0 pontos (TR1); não se somam pontos das outras categorias. Soma dos pontos de composição, ecogenicidade, forma, margem e focos ecogênicos (nestes, some todos os tipos presentes; artefato em cauda de cometa grande ou ausência de focos = 0). TR1: 0 ponto · TR2: 2 pontos · TR3: 3 pontos · TR4: 4 a 6 pontos · TR5: 7 ou mais.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "comp",
+            "label": "Composição",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "cistico": "Cístico ou quase todo cístico (0)",
+              "espongiforme": "Espongiforme (0)",
+              "misto": "Misto sólido-cístico (1)",
+              "solido": "Sólido ou quase todo sólido (2)"
+            }
+          },
+          {
+            "key": "eco",
+            "label": "Ecogenicidade",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "anecoico": "Anecoico (0)",
+              "hiper": "Hiper ou isoecoico (1)",
+              "hipo": "Hipoecoico (2)",
+              "muitohipo": "Muito hipoecoico (3)"
+            }
+          },
+          {
+            "key": "forma",
+            "label": "Forma (no corte transversal)",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "larga": "Mais largo que alto (0)",
+              "alta": "Mais alto que largo (3)"
+            }
+          },
+          {
+            "key": "margem",
+            "label": "Margem",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "lisa": "Lisa (0)",
+              "maldefinida": "Mal definida (0)",
+              "irregular": "Lobulada ou irregular (2)",
+              "extra": "Extensão extratireoidiana (3)"
+            }
+          },
+          {
+            "key": "macro",
+            "label": "Focos ecogênicos: macrocalcificações (1)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "periferica",
+            "label": "Focos ecogênicos: calcificações periféricas (em anel) (2)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "puntiforme",
+            "label": "Focos ecogênicos: puntiformes (3)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "tamanho",
+            "label": "Maior diâmetro do nódulo (opcional)",
+            "type": "num",
+            "min": 0.1,
+            "max": 10,
+            "unit": "cm",
+            "optional": true,
+            "options": null
+          }
+        ],
+        "hash": "1eeb52b898f6c38ac7207edcad227c426c90989b0a6696a2b976a50d07fa1623",
+        "hashInputDefinition": "SHA256 of UTF8 JSON.stringify({id:tool.id,fields:tool.fields,formula:tool.formula,config:tool.config||null}), preserving declared order/value types; not a hash of versionEvidence.inputContract.fields display projection."
+      },
+      "sourceEditions": [
+        {
+          "citation": "Tessler FN et al. ACR Thyroid Imaging, Reporting and Data System (TI-RADS): white paper of the ACR TI-RADS Committee. J Am Coll Radiol, 2017.",
+          "url": "https://doi.org/10.1016/j.jacr.2017.01.046",
+          "class": "existing-source-record-transcribed",
+          "declaredCitationPreserved": true,
+          "sourceIdentityRecheckedInThisNormalization": false,
+          "publicationEditionConfirmationInThisNormalization": "not-performed",
+          "fullTextRetrievalInThisNormalization": false,
+          "formulaConformance": "not-assessed"
+        },
+        {
+          "citation": "https://radssupport.acr.org/support/solutions/articles/11000071474-acr-ti-rads-faq",
+          "url": "https://radssupport.acr.org/support/solutions/articles/11000071474-acr-ti-rads-faq",
+          "class": "existing-source-record-transcribed",
+          "declaredCitationPreserved": true,
+          "sourceIdentityRecheckedInThisNormalization": false,
+          "publicationEditionConfirmationInThisNormalization": "not-performed",
+          "fullTextRetrievalInThisNormalization": false,
+          "formulaConformance": "not-assessed"
+        },
+        {
+          "citation": "https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/TI-RADS/Sonographers-Worksheet-TI-RADS.pdf",
+          "url": "https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/TI-RADS/Sonographers-Worksheet-TI-RADS.pdf",
+          "class": "existing-source-record-transcribed",
+          "declaredCitationPreserved": true,
+          "sourceIdentityRecheckedInThisNormalization": false,
+          "publicationEditionConfirmationInThisNormalization": "not-performed",
+          "fullTextRetrievalInThisNormalization": false,
+          "formulaConformance": "not-assessed"
+        }
+      ],
+      "existingSourceEvidence": {
+        "sourceLimitEvidence": {
+          "checkedAt": "2026-10-04T02:52:03.174Z",
+          "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+          "sourceReviewFile": "remaining-native-population-limits-review.json",
+          "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+          "readingOutcome": "review-outcome-recorded",
+          "unresolved": [
+            "Não há faixa etária, exclusões, tabela de pontos, limiares de tamanho ou regras de crescimento no resumo. Necessário ler o white paper/tabelas oficiais antes de preencher esses limites."
+          ],
+          "fullMethodConformanceReviewed": false,
+          "clinicalApproval": "not-performed",
+          "professionalLanguageApproval": "not-performed",
+          "primarySupplements": [
+            {
+              "url": "https://radssupport.acr.org/support/solutions/articles/11000071474-acr-ti-rads-faq",
+              "scope": "Official FAQ111/112/115/116 read, modified2026-01-12; not the full2017 paper."
+            },
+            {
+              "url": "https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/TI-RADS/Sonographers-Worksheet-TI-RADS.pdf",
+              "scope": "Official one-page worksheet composition instructions read; no rights authorization inferred."
+            }
+          ]
+        }
+      },
+      "editionRecordingScope": "The methodVersion and all previously recorded source access/edition proofs are transcribed unchanged. This technical normalization makes no new bibliographic/full-text/source-formula confirmation; named existing read scopes remain in existingSourceEvidence. A missing standardized container did not mean the method edition was missing.",
+      "publicationEditionConfirmationReevaluated": false,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by technical hashes or metadata normalization; retain existing bounded source arithmetic and clinical review separately.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-03T19:09:01.297Z",
+        "total": 1035,
+        "passed": 1035,
+        "evidencePath": "reports/review-20261003/oncology-source-oracles.json",
+        "scope": "Composition override, additive point arithmetic and published category/diameter thresholds. Synthetic combinations do not establish ultrasound interpretation or clinical applicability.",
+        "publicCandidateBankOmitted": true
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "implementationHash": "9b676506c5077c14d8fb2d642890919e40be356f04255e014e09010f1cee33b1",
+      "implementationHashScope": "Exact current calculator.js bytes, individually verified in three app mirrors. This is not a full dependency-closure hash.",
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-04T17:52:09.841Z",
+          "scope": "First standardized container; explicit existing methodVersion and source proof objects preserved.",
+          "priorStandardizedContainerPresent": false,
+          "priorImplementationVersion": null,
+          "explicitMethodVersion": "ACR TI-RADS 2017; benign composition rule checked against ACR worksheet on 2026-10-03",
+          "sourceEvidenceSha256": "6dd2cdbc57b63e78ca4e468b664242a0af8d3ac43b0a65ad3c1fb9ab7b3f1795",
+          "metadataAudit": {
+            "file": "reports/review-20261003/native-technical-bindings-audit-publication-final26.json",
+            "sha256": "e615fa3a42555f8fbeb4de8763893c3e981a73eae4c8c1994b33727e19ebd8c8"
+          }
+        }
+      ]
+    },
+    "implementationVersion": "acr-ti-rads@native-2026-10-04+9b676506c507"
+  },
+  "currentSource": {
+    "file": "apps/website/private/tool-code/acr-ti-rads/calculator.js",
+    "bytes": 6638,
+    "sha256": "9b676506c5077c14d8fb2d642890919e40be356f04255e014e09010f1cee33b1"
+  },
+  "sourceToolSha256": "f4afe4f4d1d475df5dcc8cb22fcdbdbc5e82e6fe985e56452ba00cb3431ebb51",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 1035,
+      "sha256": "15f429a850aec0658c99be59adcd7fecf216f6c4bc4c7c1bc274a2592f9623f1",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    },
+    {
+      "rows": 1035,
+      "sha256": "15f429a850aec0658c99be59adcd7fecf216f6c4bc4c7c1bc274a2592f9623f1",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
     }
-  },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
-  },
-  "clinicalValidation": "not-performed"
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }
