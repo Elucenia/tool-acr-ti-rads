@@ -1,0 +1,2458 @@
+{
+  "id": "acr-ti-rads",
+  "implementationVersion": "acr-ti-rads@native-2026-10-05+521b0fbf19db",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Cisto anecoico simples: 0 ponto, TR1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Pontos",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR1 (benigno): PAAF não indicada",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Espongiforme isoecoico: 0 ponto, TR1 (não somar outras categorias)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Pontos",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR1 (benigno): PAAF não indicada",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: misto, isoecoico, macrocalcificação, 2,5 cm: 3 pontos, TR3, PAAF",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Pontos",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "3",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "PAAF se maior diâmetro",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "≥ 2,5 cm",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Seguimento se",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "≥ 1,5 cm (US em 1, 3 e 5 anos)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR3 (levemente suspeito): PAAF indicada (≥ 2,5 cm)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Sólido hipoecoico liso de 1,2 cm: 4 pontos, TR4, seguimento",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Pontos",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "4",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "PAAF se maior diâmetro",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "≥ 1,5 cm",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Seguimento se",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "≥ 1,0 cm (US em 1, 2, 3 e 5 anos)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR4 (moderadamente suspeito): seguimento ultrassonográfico, sem PAAF",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Sólido, muito hipoecoico, mais alto que largo, irregular, puntiformes, 1,0 cm: 13 pontos, TR5, PAAF",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Pontos",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "13",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "PAAF se maior diâmetro",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "≥ 1,0 cm",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Seguimento se",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "≥ 0,5 cm (US anual por até 5 anos)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR5 (altamente suspeito): PAAF indicada (≥ 1,0 cm)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Cisto anecoico simples: 0 ponto, TR1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "en",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "0",
+                "locale": "en",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR1 (benign): FNA not indicated",
+            "locale": "en",
+            "template": "documented-authored-ce1c2f5175d043dc3f14"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Espongiforme isoecoico: 0 ponto, TR1 (não somar outras categorias)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "en",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "0",
+                "locale": "en",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR1 (benign): FNA not indicated",
+            "locale": "en",
+            "template": "documented-authored-ce1c2f5175d043dc3f14"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: misto, isoecoico, macrocalcificação, 2,5 cm: 3 pontos, TR3, PAAF",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "en",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "3",
+                "locale": "en",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "FNA if largest diameter",
+                "locale": "en",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 2.5 cm",
+                "locale": "en",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  2.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Follow-up if",
+                "locale": "en",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 1.5 cm (US in 1, 3 and 5 years)",
+                "locale": "en",
+                "template": "documented-authored-f7f2ecb65188c1edb75e",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR3 (mildly suspicious): FNA indicated (≥ 2.5 cm)",
+            "locale": "en",
+            "template": "documented-authored-5d29d6407f052364f1b3",
+            "sourceNumbers": [
+              2.5
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Sólido hipoecoico liso de 1,2 cm: 4 pontos, TR4, seguimento",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "en",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "4",
+                "locale": "en",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "FNA if largest diameter",
+                "locale": "en",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 1.5 cm",
+                "locale": "en",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Follow-up if",
+                "locale": "en",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 1.0 cm (US in 1, 2, 3 and 5 years)",
+                "locale": "en",
+                "template": "documented-authored-3f56396fe360fca66130",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR4 (moderately suspicious): ultrasound follow-up, no FNA",
+            "locale": "en",
+            "template": "documented-authored-96ba78f0fb0e67334f64"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Sólido, muito hipoecoico, mais alto que largo, irregular, puntiformes, 1,0 cm: 13 pontos, TR5, PAAF",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "en",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "13",
+                "locale": "en",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  13
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "FNA if largest diameter",
+                "locale": "en",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 1.0 cm",
+                "locale": "en",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Follow-up if",
+                "locale": "en",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 0.5 cm (annual US for up to 5 years)",
+                "locale": "en",
+                "template": "documented-authored-9c92b05eb73893568188",
+                "sourceNumbers": [
+                  0.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR5 (highly suspicious): FNA indicated (≥ 1.0 cm)",
+            "locale": "en",
+            "template": "documented-authored-e105d17a3ed97d578c9a",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Cisto anecoico simples: 0 ponto, TR1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Puntos",
+                "locale": "es",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "0",
+                "locale": "es",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR1 (benigno): PAAF no indicada",
+            "locale": "es",
+            "template": "documented-authored-ce1c2f5175d043dc3f14"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Espongiforme isoecoico: 0 ponto, TR1 (não somar outras categorias)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Puntos",
+                "locale": "es",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "0",
+                "locale": "es",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR1 (benigno): PAAF no indicada",
+            "locale": "es",
+            "template": "documented-authored-ce1c2f5175d043dc3f14"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: misto, isoecoico, macrocalcificação, 2,5 cm: 3 pontos, TR3, PAAF",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Puntos",
+                "locale": "es",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "3",
+                "locale": "es",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "PAAF si el diámetro mayor",
+                "locale": "es",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 2,5 cm",
+                "locale": "es",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  2.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Seguimiento si",
+                "locale": "es",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 1,5 cm (US en 1, 3 y 5 años)",
+                "locale": "es",
+                "template": "documented-authored-f7f2ecb65188c1edb75e",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR3 (levemente sospechoso): PAAF indicada (≥ 2,5 cm)",
+            "locale": "es",
+            "template": "documented-authored-5d29d6407f052364f1b3",
+            "sourceNumbers": [
+              2.5
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Sólido hipoecoico liso de 1,2 cm: 4 pontos, TR4, seguimento",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Puntos",
+                "locale": "es",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "4",
+                "locale": "es",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "PAAF si el diámetro mayor",
+                "locale": "es",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 1,5 cm",
+                "locale": "es",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Seguimiento si",
+                "locale": "es",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 1,0 cm (US en 1, 2, 3 y 5 años)",
+                "locale": "es",
+                "template": "documented-authored-3f56396fe360fca66130",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR4 (moderadamente sospechoso): seguimiento ecográfico, sin PAAF",
+            "locale": "es",
+            "template": "documented-authored-96ba78f0fb0e67334f64"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Sólido, muito hipoecoico, mais alto que largo, irregular, puntiformes, 1,0 cm: 13 pontos, TR5, PAAF",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Puntos",
+                "locale": "es",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "13",
+                "locale": "es",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  13
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "PAAF si el diámetro mayor",
+                "locale": "es",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 1,0 cm",
+                "locale": "es",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Seguimiento si",
+                "locale": "es",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 0,5 cm (US anual por hasta 5 años)",
+                "locale": "es",
+                "template": "documented-authored-9c92b05eb73893568188",
+                "sourceNumbers": [
+                  0.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR5 (altamente sospechoso): PAAF indicada (≥ 1,0 cm)",
+            "locale": "es",
+            "template": "documented-authored-e105d17a3ed97d578c9a",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Cisto anecoico simples: 0 ponto, TR1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "fr",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "0",
+                "locale": "fr",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR1 (bénin) : cytoponction à l'aiguille fine non indiquée",
+            "locale": "fr",
+            "template": "documented-authored-ce1c2f5175d043dc3f14"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Espongiforme isoecoico: 0 ponto, TR1 (não somar outras categorias)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "fr",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "0",
+                "locale": "fr",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR1 (bénin) : cytoponction à l'aiguille fine non indiquée",
+            "locale": "fr",
+            "template": "documented-authored-ce1c2f5175d043dc3f14"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: misto, isoecoico, macrocalcificação, 2,5 cm: 3 pontos, TR3, PAAF",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "fr",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "3",
+                "locale": "fr",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "cytoponction à l'aiguille fine si le plus grand diamètre",
+                "locale": "fr",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 2,5 cm",
+                "locale": "fr",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  2.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Suivi si",
+                "locale": "fr",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 1,5 cm (échographie à 1, 3 et 5 ans)",
+                "locale": "fr",
+                "template": "documented-authored-f7f2ecb65188c1edb75e",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR3 (légèrement suspect) : cytoponction à l'aiguille fine indiquée (≥ 2,5 cm)",
+            "locale": "fr",
+            "template": "documented-authored-5d29d6407f052364f1b3",
+            "sourceNumbers": [
+              2.5
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Sólido hipoecoico liso de 1,2 cm: 4 pontos, TR4, seguimento",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "fr",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "4",
+                "locale": "fr",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "cytoponction à l'aiguille fine si le plus grand diamètre",
+                "locale": "fr",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 1,5 cm",
+                "locale": "fr",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Suivi si",
+                "locale": "fr",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 1,0 cm (échographie à 1, 2, 3 et 5 ans)",
+                "locale": "fr",
+                "template": "documented-authored-3f56396fe360fca66130",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR4 (modérément suspect) : suivi échographique, pas de cytoponction à l'aiguille fine",
+            "locale": "fr",
+            "template": "documented-authored-96ba78f0fb0e67334f64"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Sólido, muito hipoecoico, mais alto que largo, irregular, puntiformes, 1,0 cm: 13 pontos, TR5, PAAF",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "fr",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "13",
+                "locale": "fr",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  13
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "cytoponction à l'aiguille fine si le plus grand diamètre",
+                "locale": "fr",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 1,0 cm",
+                "locale": "fr",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Suivi si",
+                "locale": "fr",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 0,5 cm (échographie annuelle pendant jusqu'à 5 ans)",
+                "locale": "fr",
+                "template": "documented-authored-9c92b05eb73893568188",
+                "sourceNumbers": [
+                  0.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR5 (hautement suspect) : cytoponction à l'aiguille fine indiquée (≥ 1,0 cm)",
+            "locale": "fr",
+            "template": "documented-authored-e105d17a3ed97d578c9a",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Cisto anecoico simples: 0 ponto, TR1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punkte",
+                "locale": "de",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "0",
+                "locale": "de",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR1 (benigne): FNA nicht indiziert",
+            "locale": "de",
+            "template": "documented-authored-ce1c2f5175d043dc3f14"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Espongiforme isoecoico: 0 ponto, TR1 (não somar outras categorias)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punkte",
+                "locale": "de",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "0",
+                "locale": "de",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR1 (benigne): FNA nicht indiziert",
+            "locale": "de",
+            "template": "documented-authored-ce1c2f5175d043dc3f14"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: misto, isoecoico, macrocalcificação, 2,5 cm: 3 pontos, TR3, PAAF",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punkte",
+                "locale": "de",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "3",
+                "locale": "de",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "FNA bei größtem Durchmesser",
+                "locale": "de",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 2,5 cm",
+                "locale": "de",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  2.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Verlaufskontrolle wenn",
+                "locale": "de",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 1,5 cm (US in 1, 3 und 5 Jahren)",
+                "locale": "de",
+                "template": "documented-authored-f7f2ecb65188c1edb75e",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR3 (leicht verdächtig): FNA indiziert (≥ 2,5 cm)",
+            "locale": "de",
+            "template": "documented-authored-5d29d6407f052364f1b3",
+            "sourceNumbers": [
+              2.5
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Sólido hipoecoico liso de 1,2 cm: 4 pontos, TR4, seguimento",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punkte",
+                "locale": "de",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "4",
+                "locale": "de",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "FNA bei größtem Durchmesser",
+                "locale": "de",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 1,5 cm",
+                "locale": "de",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Verlaufskontrolle wenn",
+                "locale": "de",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 1,0 cm (US in 1, 2, 3 und 5 Jahren)",
+                "locale": "de",
+                "template": "documented-authored-3f56396fe360fca66130",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR4 (mäßig verdächtig): Ultraschallkontrolle, keine FNA",
+            "locale": "de",
+            "template": "documented-authored-96ba78f0fb0e67334f64"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Sólido, muito hipoecoico, mais alto que largo, irregular, puntiformes, 1,0 cm: 13 pontos, TR5, PAAF",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punkte",
+                "locale": "de",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "13",
+                "locale": "de",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  13
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "FNA bei größtem Durchmesser",
+                "locale": "de",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 1,0 cm",
+                "locale": "de",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Verlaufskontrolle wenn",
+                "locale": "de",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 0,5 cm (jährlicher US für bis zu 5 Jahre)",
+                "locale": "de",
+                "template": "documented-authored-9c92b05eb73893568188",
+                "sourceNumbers": [
+                  0.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR5 (hochverdächtig): FNA indiziert (≥ 1,0 cm)",
+            "locale": "de",
+            "template": "documented-authored-e105d17a3ed97d578c9a",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Cisto anecoico simples: 0 ponto, TR1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punti",
+                "locale": "it",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "0",
+                "locale": "it",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR1 (benigno): agoaspirato non indicato",
+            "locale": "it",
+            "template": "documented-authored-ce1c2f5175d043dc3f14"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Espongiforme isoecoico: 0 ponto, TR1 (não somar outras categorias)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punti",
+                "locale": "it",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "0",
+                "locale": "it",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR1 (benigno): agoaspirato non indicato",
+            "locale": "it",
+            "template": "documented-authored-ce1c2f5175d043dc3f14"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: misto, isoecoico, macrocalcificação, 2,5 cm: 3 pontos, TR3, PAAF",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punti",
+                "locale": "it",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "3",
+                "locale": "it",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Agoaspirato se il diametro maggiore",
+                "locale": "it",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 2,5 cm",
+                "locale": "it",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  2.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Follow-up se",
+                "locale": "it",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 1,5 cm (US a 1, 3 e 5 anni)",
+                "locale": "it",
+                "template": "documented-authored-f7f2ecb65188c1edb75e",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR3 (lievemente sospetto): agoaspirato indicato (≥ 2,5 cm)",
+            "locale": "it",
+            "template": "documented-authored-5d29d6407f052364f1b3",
+            "sourceNumbers": [
+              2.5
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Sólido hipoecoico liso de 1,2 cm: 4 pontos, TR4, seguimento",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punti",
+                "locale": "it",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "4",
+                "locale": "it",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Agoaspirato se il diametro maggiore",
+                "locale": "it",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 1,5 cm",
+                "locale": "it",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Follow-up se",
+                "locale": "it",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 1,0 cm (US a 1, 2, 3 e 5 anni)",
+                "locale": "it",
+                "template": "documented-authored-3f56396fe360fca66130",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR4 (moderatamente sospetto): follow-up ecografico, senza agoaspirato",
+            "locale": "it",
+            "template": "documented-authored-96ba78f0fb0e67334f64"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Sólido, muito hipoecoico, mais alto que largo, irregular, puntiformes, 1,0 cm: 13 pontos, TR5, PAAF",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punti",
+                "locale": "it",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "13",
+                "locale": "it",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  13
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Agoaspirato se il diametro maggiore",
+                "locale": "it",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 1,0 cm",
+                "locale": "it",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Follow-up se",
+                "locale": "it",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 0,5 cm (US annuale fino a 5 anni)",
+                "locale": "it",
+                "template": "documented-authored-9c92b05eb73893568188",
+                "sourceNumbers": [
+                  0.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR5 (altamente sospetto): agoaspirato indicato (≥ 1,0 cm)",
+            "locale": "it",
+            "template": "documented-authored-e105d17a3ed97d578c9a",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Cisto anecoico simples: 0 ponto, TR1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "النقاط",
+                "locale": "ar",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "٠",
+                "locale": "ar",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR1 (حميد): لا يُشار إلى PAAF",
+            "locale": "ar",
+            "template": "documented-authored-ce1c2f5175d043dc3f14"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Espongiforme isoecoico: 0 ponto, TR1 (não somar outras categorias)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "النقاط",
+                "locale": "ar",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "٠",
+                "locale": "ar",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR1 (حميد): لا يُشار إلى PAAF",
+            "locale": "ar",
+            "template": "documented-authored-ce1c2f5175d043dc3f14"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: misto, isoecoico, macrocalcificação, 2,5 cm: 3 pontos, TR3, PAAF",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "النقاط",
+                "locale": "ar",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "٣",
+                "locale": "ar",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "PAAF إذا كان القطر الأكبر",
+                "locale": "ar",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ ٢٫٥ cm",
+                "locale": "ar",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  2.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "المتابعة إذا",
+                "locale": "ar",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ ١٫٥ cm (US في 1 و3 و5 سنوات)",
+                "locale": "ar",
+                "template": "documented-authored-f7f2ecb65188c1edb75e",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR3 (مُشتبه به قليلًا): يُشار إلى PAAF (≥ ٢٫٥ cm)",
+            "locale": "ar",
+            "template": "documented-authored-5d29d6407f052364f1b3",
+            "sourceNumbers": [
+              2.5
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Sólido hipoecoico liso de 1,2 cm: 4 pontos, TR4, seguimento",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "النقاط",
+                "locale": "ar",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "٤",
+                "locale": "ar",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "PAAF إذا كان القطر الأكبر",
+                "locale": "ar",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ ١٫٥ cm",
+                "locale": "ar",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "المتابعة إذا",
+                "locale": "ar",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ ١٫٠ cm (US في 1 و2 و3 و5 سنوات)",
+                "locale": "ar",
+                "template": "documented-authored-3f56396fe360fca66130",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR4 (مُشتبه به بدرجة متوسطة): متابعة بالموجات فوق الصوتية، دون PAAF",
+            "locale": "ar",
+            "template": "documented-authored-96ba78f0fb0e67334f64"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Sólido, muito hipoecoico, mais alto que largo, irregular, puntiformes, 1,0 cm: 13 pontos, TR5, PAAF",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "النقاط",
+                "locale": "ar",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "١٣",
+                "locale": "ar",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  13
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "PAAF إذا كان القطر الأكبر",
+                "locale": "ar",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ ١٫٠ cm",
+                "locale": "ar",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "المتابعة إذا",
+                "locale": "ar",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ ٠٫٥ cm (US سنوي لمدة تصل إلى 5 سنوات)",
+                "locale": "ar",
+                "template": "documented-authored-9c92b05eb73893568188",
+                "sourceNumbers": [
+                  0.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR5 (مُشتبه به بدرجة عالية): يُشار إلى PAAF (≥ ١٫٠ cm)",
+            "locale": "ar",
+            "template": "documented-authored-e105d17a3ed97d578c9a",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Cisto anecoico simples: 0 ponto, TR1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "点",
+                "locale": "zh",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "0",
+                "locale": "zh",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR1（良性）：不建议PAAF",
+            "locale": "zh",
+            "template": "documented-authored-ce1c2f5175d043dc3f14"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Espongiforme isoecoico: 0 ponto, TR1 (não somar outras categorias)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "点",
+                "locale": "zh",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "0",
+                "locale": "zh",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR1（良性）：不建议PAAF",
+            "locale": "zh",
+            "template": "documented-authored-ce1c2f5175d043dc3f14"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: misto, isoecoico, macrocalcificação, 2,5 cm: 3 pontos, TR3, PAAF",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "点",
+                "locale": "zh",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "3",
+                "locale": "zh",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "若最大径则行PAAF",
+                "locale": "zh",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 2.5 cm",
+                "locale": "zh",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  2.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "随访，若",
+                "locale": "zh",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 1.5 cm（1、3和5年行US）",
+                "locale": "zh",
+                "template": "documented-authored-f7f2ecb65188c1edb75e",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR3（轻度可疑）：建议PAAF（≥ 2.5 cm）",
+            "locale": "zh",
+            "template": "documented-authored-5d29d6407f052364f1b3",
+            "sourceNumbers": [
+              2.5
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Sólido hipoecoico liso de 1,2 cm: 4 pontos, TR4, seguimento",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "点",
+                "locale": "zh",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "4",
+                "locale": "zh",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "若最大径则行PAAF",
+                "locale": "zh",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 1.5 cm",
+                "locale": "zh",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "随访，若",
+                "locale": "zh",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 1.0 cm（1、2、3和5年行US）",
+                "locale": "zh",
+                "template": "documented-authored-3f56396fe360fca66130",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR4（中度可疑）：超声随访，无需PAAF",
+            "locale": "zh",
+            "template": "documented-authored-96ba78f0fb0e67334f64"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Sólido, muito hipoecoico, mais alto que largo, irregular, puntiformes, 1,0 cm: 13 pontos, TR5, PAAF",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "点",
+                "locale": "zh",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "13",
+                "locale": "zh",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  13
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "若最大径则行PAAF",
+                "locale": "zh",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 1.0 cm",
+                "locale": "zh",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "随访，若",
+                "locale": "zh",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 0.5 cm（每年US，最长5年）",
+                "locale": "zh",
+                "template": "documented-authored-9c92b05eb73893568188",
+                "sourceNumbers": [
+                  0.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR5（高度可疑）：建议PAAF（≥ 1.0 cm）",
+            "locale": "zh",
+            "template": "documented-authored-e105d17a3ed97d578c9a",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Cisto anecoico simples: 0 ponto, TR1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "点",
+                "locale": "ja",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "0",
+                "locale": "ja",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR1（良性）：PAAFは適応なし",
+            "locale": "ja",
+            "template": "documented-authored-ce1c2f5175d043dc3f14"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Espongiforme isoecoico: 0 ponto, TR1 (não somar outras categorias)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "点",
+                "locale": "ja",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "0",
+                "locale": "ja",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR1（良性）：PAAFは適応なし",
+            "locale": "ja",
+            "template": "documented-authored-ce1c2f5175d043dc3f14"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: misto, isoecoico, macrocalcificação, 2,5 cm: 3 pontos, TR3, PAAF",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "点",
+                "locale": "ja",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "3",
+                "locale": "ja",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "最大径ならPAAF",
+                "locale": "ja",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 2.5 cm",
+                "locale": "ja",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  2.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "以下の場合に経過観察",
+                "locale": "ja",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 1.5 cm（1、3、5年でUS）",
+                "locale": "ja",
+                "template": "documented-authored-f7f2ecb65188c1edb75e",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR3（やや疑わしい）：PAAFが適応（≥ 2.5 cm）",
+            "locale": "ja",
+            "template": "documented-authored-5d29d6407f052364f1b3",
+            "sourceNumbers": [
+              2.5
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Sólido hipoecoico liso de 1,2 cm: 4 pontos, TR4, seguimento",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "点",
+                "locale": "ja",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "4",
+                "locale": "ja",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "最大径ならPAAF",
+                "locale": "ja",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 1.5 cm",
+                "locale": "ja",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "以下の場合に経過観察",
+                "locale": "ja",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 1.0 cm（1、2、3、5年でUS）",
+                "locale": "ja",
+                "template": "documented-authored-3f56396fe360fca66130",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR4（中等に疑わしい）：超音波フォローアップ、PAAFなし",
+            "locale": "ja",
+            "template": "documented-authored-96ba78f0fb0e67334f64"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Sólido, muito hipoecoico, mais alto que largo, irregular, puntiformes, 1,0 cm: 13 pontos, TR5, PAAF",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "点",
+                "locale": "ja",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "13",
+                "locale": "ja",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  13
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "最大径ならPAAF",
+                "locale": "ja",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 1.0 cm",
+                "locale": "ja",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "以下の場合に経過観察",
+                "locale": "ja",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 0.5 cm（最長5年間、毎年US）",
+                "locale": "ja",
+                "template": "documented-authored-9c92b05eb73893568188",
+                "sourceNumbers": [
+                  0.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR5（高度に疑わしい）：PAAFが適応（≥ 1.0 cm）",
+            "locale": "ja",
+            "template": "documented-authored-e105d17a3ed97d578c9a",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Cisto anecoico simples: 0 ponto, TR1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "अंक",
+                "locale": "hi",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "0",
+                "locale": "hi",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR1 (सौम्य): PAAF संकेतित नहीं",
+            "locale": "hi",
+            "template": "documented-authored-ce1c2f5175d043dc3f14"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Espongiforme isoecoico: 0 ponto, TR1 (não somar outras categorias)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "अंक",
+                "locale": "hi",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "0",
+                "locale": "hi",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR1 (सौम्य): PAAF संकेतित नहीं",
+            "locale": "hi",
+            "template": "documented-authored-ce1c2f5175d043dc3f14"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Corte: misto, isoecoico, macrocalcificação, 2,5 cm: 3 pontos, TR3, PAAF",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "अंक",
+                "locale": "hi",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "3",
+                "locale": "hi",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  3
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "सबसे बड़े व्यास पर PAAF",
+                "locale": "hi",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 2.5 cm",
+                "locale": "hi",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  2.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "यदि तो अनुवर्ती",
+                "locale": "hi",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 1.5 cm (1, 3 और 5 वर्ष पर US)",
+                "locale": "hi",
+                "template": "documented-authored-f7f2ecb65188c1edb75e",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR3 (हल्का संदेहास्पद): PAAF संकेतित (≥ 2.5 cm)",
+            "locale": "hi",
+            "template": "documented-authored-5d29d6407f052364f1b3",
+            "sourceNumbers": [
+              2.5
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Sólido hipoecoico liso de 1,2 cm: 4 pontos, TR4, seguimento",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "अंक",
+                "locale": "hi",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "4",
+                "locale": "hi",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "सबसे बड़े व्यास पर PAAF",
+                "locale": "hi",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 1.5 cm",
+                "locale": "hi",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  1.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "यदि तो अनुवर्ती",
+                "locale": "hi",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 1.0 cm (1, 2, 3 और 5 वर्ष पर US)",
+                "locale": "hi",
+                "template": "documented-authored-3f56396fe360fca66130",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR4 (मध्यम संदेहास्पद): अल्ट्रासाउंड अनुवर्ती, PAAF नहीं",
+            "locale": "hi",
+            "template": "documented-authored-96ba78f0fb0e67334f64"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Sólido, muito hipoecoico, mais alto que largo, irregular, puntiformes, 1,0 cm: 13 pontos, TR5, PAAF",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "अंक",
+                "locale": "hi",
+                "template": "documented-authored-b5f4c5a81090a226b41c"
+              },
+              "value": {
+                "text": "13",
+                "locale": "hi",
+                "template": "documented-authored-b67e6f5e39115168f083",
+                "sourceNumbers": [
+                  13
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "सबसे बड़े व्यास पर PAAF",
+                "locale": "hi",
+                "template": "documented-authored-ab46d600f85d1ea6a2ed"
+              },
+              "value": {
+                "text": "≥ 1.0 cm",
+                "locale": "hi",
+                "template": "documented-authored-93053e7fdea84b1cbc1e",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "यदि तो अनुवर्ती",
+                "locale": "hi",
+                "template": "documented-authored-1e4cfabfe493ded64c0f"
+              },
+              "value": {
+                "text": "≥ 0.5 cm (अधिकतम 5 वर्षों तक वार्षिक US)",
+                "locale": "hi",
+                "template": "documented-authored-9c92b05eb73893568188",
+                "sourceNumbers": [
+                  0.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "TR5 (अत्यधिक संदेहास्पद): PAAF संकेतित (≥ 1.0 cm)",
+            "locale": "hi",
+            "template": "documented-authored-e105d17a3ed97d578c9a",
+            "sourceNumbers": [
+              1
+            ]
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

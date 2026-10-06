@@ -111,3 +111,58 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+TR1 (benign): FNA not indicated
+
+| Result details | |
+| --- | --- |
+| Points | 0 |
+
+
+### 2
+
+TR1 (benign): FNA not indicated
+
+| Result details | |
+| --- | --- |
+| Points | 0 |
+
+
+### 3
+
+TR3 (mildly suspicious): FNA indicated (≥ 2.5 cm)
+
+| Result details | |
+| --- | --- |
+| Points | 3 |
+| FNA if largest diameter | ≥ 2.5 cm |
+| Follow-up if | ≥ 1.5 cm (US in 1, 3 and 5 years) |
+
+
+### 4
+
+TR4 (moderately suspicious): ultrasound follow-up, no FNA
+
+| Result details | |
+| --- | --- |
+| Points | 4 |
+| FNA if largest diameter | ≥ 1.5 cm |
+| Follow-up if | ≥ 1.0 cm (US in 1, 2, 3 and 5 years) |
+
+
+### 5
+
+TR5 (highly suspicious): FNA indicated (≥ 1.0 cm)
+
+| Result details | |
+| --- | --- |
+| Points | 13 |
+| FNA if largest diameter | ≥ 1.0 cm |
+| Follow-up if | ≥ 0.5 cm (annual US for up to 5 years) |
+

@@ -111,3 +111,58 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+TR1 (benigno): agoaspirato non indicato
+
+| Dettagli del risultato | |
+| --- | --- |
+| Punti | 0 |
+
+
+### 2
+
+TR1 (benigno): agoaspirato non indicato
+
+| Dettagli del risultato | |
+| --- | --- |
+| Punti | 0 |
+
+
+### 3
+
+TR3 (lievemente sospetto): agoaspirato indicato (≥ 2,5 cm)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Punti | 3 |
+| Agoaspirato se il diametro maggiore | ≥ 2,5 cm |
+| Follow-up se | ≥ 1,5 cm (US a 1, 3 e 5 anni) |
+
+
+### 4
+
+TR4 (moderatamente sospetto): follow-up ecografico, senza agoaspirato
+
+| Dettagli del risultato | |
+| --- | --- |
+| Punti | 4 |
+| Agoaspirato se il diametro maggiore | ≥ 1,5 cm |
+| Follow-up se | ≥ 1,0 cm (US a 1, 2, 3 e 5 anni) |
+
+
+### 5
+
+TR5 (altamente sospetto): agoaspirato indicato (≥ 1,0 cm)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Punti | 13 |
+| Agoaspirato se il diametro maggiore | ≥ 1,0 cm |
+| Follow-up se | ≥ 0,5 cm (US annuale fino a 5 anni) |
+

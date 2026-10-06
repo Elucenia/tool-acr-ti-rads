@@ -111,3 +111,58 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+TR1 (benigno): PAAF não indicada
+
+| Detalhes do resultado | |
+| --- | --- |
+| Pontos | 0 |
+
+
+### 2
+
+TR1 (benigno): PAAF não indicada
+
+| Detalhes do resultado | |
+| --- | --- |
+| Pontos | 0 |
+
+
+### 3
+
+TR3 (levemente suspeito): PAAF indicada (≥ 2,5 cm)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Pontos | 3 |
+| PAAF se maior diâmetro | ≥ 2,5 cm |
+| Seguimento se | ≥ 1,5 cm (US em 1, 3 e 5 anos) |
+
+
+### 4
+
+TR4 (moderadamente suspeito): seguimento ultrassonográfico, sem PAAF
+
+| Detalhes do resultado | |
+| --- | --- |
+| Pontos | 4 |
+| PAAF se maior diâmetro | ≥ 1,5 cm |
+| Seguimento se | ≥ 1,0 cm (US em 1, 2, 3 e 5 anos) |
+
+
+### 5
+
+TR5 (altamente suspeito): PAAF indicada (≥ 1,0 cm)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Pontos | 13 |
+| PAAF se maior diâmetro | ≥ 1,0 cm |
+| Seguimento se | ≥ 0,5 cm (US anual por até 5 anos) |
+

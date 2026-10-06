@@ -111,3 +111,58 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+TR1 (bénin) : cytoponction à l'aiguille fine non indiquée
+
+| Détails du résultat | |
+| --- | --- |
+| Points | 0 |
+
+
+### 2
+
+TR1 (bénin) : cytoponction à l'aiguille fine non indiquée
+
+| Détails du résultat | |
+| --- | --- |
+| Points | 0 |
+
+
+### 3
+
+TR3 (légèrement suspect) : cytoponction à l'aiguille fine indiquée (≥ 2,5 cm)
+
+| Détails du résultat | |
+| --- | --- |
+| Points | 3 |
+| cytoponction à l'aiguille fine si le plus grand diamètre | ≥ 2,5 cm |
+| Suivi si | ≥ 1,5 cm (échographie à 1, 3 et 5 ans) |
+
+
+### 4
+
+TR4 (modérément suspect) : suivi échographique, pas de cytoponction à l'aiguille fine
+
+| Détails du résultat | |
+| --- | --- |
+| Points | 4 |
+| cytoponction à l'aiguille fine si le plus grand diamètre | ≥ 1,5 cm |
+| Suivi si | ≥ 1,0 cm (échographie à 1, 2, 3 et 5 ans) |
+
+
+### 5
+
+TR5 (hautement suspect) : cytoponction à l'aiguille fine indiquée (≥ 1,0 cm)
+
+| Détails du résultat | |
+| --- | --- |
+| Points | 13 |
+| cytoponction à l'aiguille fine si le plus grand diamètre | ≥ 1,0 cm |
+| Suivi si | ≥ 0,5 cm (échographie annuelle pendant jusqu'à 5 ans) |
+

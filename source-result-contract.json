@@ -1,0 +1,388 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "acr-ti-rads",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "6bb87db19ca7391822cacf11372a63cd2f319dc2",
+    "oldEngineSha256": "9b676506c5077c14d8fb2d642890919e40be356f04255e014e09010f1cee33b1",
+    "currentEngineSha256": "521b0fbf19dba84737caadb5a8c0bec3c7387ad32b434df341cc1254a2400e4c"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Cisto anecoico simples: 0 ponto, TR1",
+      "input": {
+        "comp": "cistico",
+        "eco": "anecoico",
+        "forma": "larga",
+        "margem": "lisa",
+        "macro": false,
+        "periferica": false,
+        "puntiforme": false
+      },
+      "publicOutput": {
+        "id": "acr-ti-rads",
+        "main": [
+          "TR1",
+          ""
+        ],
+        "label": "ACR TI-RADS",
+        "raw": {
+          "score": 0,
+          "tr": 1,
+          "paaf": false
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 0,
+          "tr": 1
+        },
+        "main": "TR1",
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "TR1",
+          ""
+        ],
+        "label": "ACR TI-RADS",
+        "level": "low",
+        "verdict": "TR1 (benigno): PAAF não indicada",
+        "rows": [
+          [
+            "Pontos",
+            "0"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "score": 0,
+          "tr": 1,
+          "paaf": false
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Espongiforme isoecoico: 0 ponto, TR1 (não somar outras categorias)",
+      "input": {
+        "comp": "espongiforme",
+        "eco": "hiper",
+        "forma": "larga",
+        "margem": "lisa",
+        "macro": false,
+        "periferica": false,
+        "puntiforme": false
+      },
+      "publicOutput": {
+        "id": "acr-ti-rads",
+        "main": [
+          "TR1",
+          ""
+        ],
+        "label": "ACR TI-RADS",
+        "raw": {
+          "score": 0,
+          "tr": 1,
+          "paaf": false
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 0,
+          "tr": 1
+        },
+        "main": "TR1",
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "TR1",
+          ""
+        ],
+        "label": "ACR TI-RADS",
+        "level": "low",
+        "verdict": "TR1 (benigno): PAAF não indicada",
+        "rows": [
+          [
+            "Pontos",
+            "0"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "score": 0,
+          "tr": 1,
+          "paaf": false
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "Corte: misto, isoecoico, macrocalcificação, 2,5 cm: 3 pontos, TR3, PAAF",
+      "input": {
+        "comp": "misto",
+        "eco": "hiper",
+        "forma": "larga",
+        "margem": "lisa",
+        "macro": true,
+        "tamanho": 2.5,
+        "periferica": false,
+        "puntiforme": false
+      },
+      "publicOutput": {
+        "id": "acr-ti-rads",
+        "main": [
+          "TR3",
+          ""
+        ],
+        "label": "ACR TI-RADS",
+        "raw": {
+          "score": 3,
+          "tr": 3,
+          "paaf": true
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 3,
+          "tr": 3
+        },
+        "level": "mid",
+        "verdict": "PAAF indicada"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "TR3",
+          ""
+        ],
+        "label": "ACR TI-RADS",
+        "level": "mid",
+        "verdict": "TR3 (levemente suspeito): PAAF indicada (≥ 2,5 cm)",
+        "rows": [
+          [
+            "Pontos",
+            "3"
+          ],
+          [
+            "PAAF se maior diâmetro",
+            "≥ 2,5 cm"
+          ],
+          [
+            "Seguimento se",
+            "≥ 1,5 cm (US em 1, 3 e 5 anos)"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "score": 3,
+          "tr": 3,
+          "paaf": true
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "Sólido hipoecoico liso de 1,2 cm: 4 pontos, TR4, seguimento",
+      "input": {
+        "comp": "solido",
+        "eco": "hipo",
+        "forma": "larga",
+        "margem": "lisa",
+        "tamanho": 1.2,
+        "macro": false,
+        "periferica": false,
+        "puntiforme": false
+      },
+      "publicOutput": {
+        "id": "acr-ti-rads",
+        "main": [
+          "TR4",
+          ""
+        ],
+        "label": "ACR TI-RADS",
+        "raw": {
+          "score": 4,
+          "tr": 4,
+          "paaf": false
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 4,
+          "tr": 4
+        },
+        "level": "mid",
+        "verdict": "seguimento"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "TR4",
+          ""
+        ],
+        "label": "ACR TI-RADS",
+        "level": "mid",
+        "verdict": "TR4 (moderadamente suspeito): seguimento ultrassonográfico, sem PAAF",
+        "rows": [
+          [
+            "Pontos",
+            "4"
+          ],
+          [
+            "PAAF se maior diâmetro",
+            "≥ 1,5 cm"
+          ],
+          [
+            "Seguimento se",
+            "≥ 1,0 cm (US em 1, 2, 3 e 5 anos)"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "score": 4,
+          "tr": 4,
+          "paaf": false
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 4,
+      "name": "Sólido, muito hipoecoico, mais alto que largo, irregular, puntiformes, 1,0 cm: 13 pontos, TR5, PAAF",
+      "input": {
+        "comp": "solido",
+        "eco": "muitohipo",
+        "forma": "alta",
+        "margem": "irregular",
+        "puntiforme": true,
+        "tamanho": 1,
+        "macro": false,
+        "periferica": false
+      },
+      "publicOutput": {
+        "id": "acr-ti-rads",
+        "main": [
+          "TR5",
+          ""
+        ],
+        "label": "ACR TI-RADS",
+        "raw": {
+          "score": 13,
+          "tr": 5,
+          "paaf": true
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 13,
+          "tr": 5
+        },
+        "level": "high",
+        "verdict": "PAAF indicada"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "TR5",
+          ""
+        ],
+        "label": "ACR TI-RADS",
+        "level": "high",
+        "verdict": "TR5 (altamente suspeito): PAAF indicada (≥ 1,0 cm)",
+        "rows": [
+          [
+            "Pontos",
+            "13"
+          ],
+          [
+            "PAAF se maior diâmetro",
+            "≥ 1,0 cm"
+          ],
+          [
+            "Seguimento se",
+            "≥ 0,5 cm (US anual por até 5 anos)"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "score": 13,
+          "tr": 5,
+          "paaf": true
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    }
+  ]
+}

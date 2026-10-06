@@ -111,3 +111,58 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+TR1 (benigne): FNA nicht indiziert
+
+| Ergebnisdetails | |
+| --- | --- |
+| Punkte | 0 |
+
+
+### 2
+
+TR1 (benigne): FNA nicht indiziert
+
+| Ergebnisdetails | |
+| --- | --- |
+| Punkte | 0 |
+
+
+### 3
+
+TR3 (leicht verdächtig): FNA indiziert (≥ 2,5 cm)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Punkte | 3 |
+| FNA bei größtem Durchmesser | ≥ 2,5 cm |
+| Verlaufskontrolle wenn | ≥ 1,5 cm (US in 1, 3 und 5 Jahren) |
+
+
+### 4
+
+TR4 (mäßig verdächtig): Ultraschallkontrolle, keine FNA
+
+| Ergebnisdetails | |
+| --- | --- |
+| Punkte | 4 |
+| FNA bei größtem Durchmesser | ≥ 1,5 cm |
+| Verlaufskontrolle wenn | ≥ 1,0 cm (US in 1, 2, 3 und 5 Jahren) |
+
+
+### 5
+
+TR5 (hochverdächtig): FNA indiziert (≥ 1,0 cm)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Punkte | 13 |
+| FNA bei größtem Durchmesser | ≥ 1,0 cm |
+| Verlaufskontrolle wenn | ≥ 0,5 cm (jährlicher US für bis zu 5 Jahre) |
+

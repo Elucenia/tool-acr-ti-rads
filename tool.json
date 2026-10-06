@@ -406,7 +406,7 @@
       "releaseApproval": "not-performed",
       "professionalLanguageApproval": "not-performed",
       "sourceRightsApproval": "not-performed",
-      "implementationHash": "9b676506c5077c14d8fb2d642890919e40be356f04255e014e09010f1cee33b1",
+      "implementationHash": "521b0fbf19dba84737caadb5a8c0bec3c7387ad32b434df341cc1254a2400e4c",
       "implementationHashScope": "Exact current calculator.js bytes, individually verified in three app mirrors. This is not a full dependency-closure hash.",
       "technicalBindingHistory": [
         {
@@ -420,27 +420,53 @@
             "file": "reports/review-20261003/native-technical-bindings-audit-publication-final26.json",
             "sha256": "e615fa3a42555f8fbeb4de8763893c3e981a73eae4c8c1994b33727e19ebd8c8"
           }
+        },
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "acr-ti-rads@native-2026-10-04+9b676506c507",
+          "previousImplementationHash": "9b676506c5077c14d8fb2d642890919e40be356f04255e014e09010f1cee33b1",
+          "implementationHash": "521b0fbf19dba84737caadb5a8c0bec3c7387ad32b434df341cc1254a2400e4c",
+          "scientificBodySha256": "4249559a1e536fb04de194c2e25f13374178e7679a70bfb81ce69fccabb06e61",
+          "metadataContractHash": "1eeb52b898f6c38ac7207edcad227c426c90989b0a6696a2b976a50d07fa1623",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
         }
-      ]
+      ],
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      }
     },
-    "implementationVersion": "acr-ti-rads@native-2026-10-04+9b676506c507"
+    "implementationVersion": "acr-ti-rads@native-2026-10-05+521b0fbf19db"
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/acr-ti-rads/calculator.js",
-    "bytes": 6638,
-    "sha256": "9b676506c5077c14d8fb2d642890919e40be356f04255e014e09010f1cee33b1"
+    "bytes": 6843,
+    "sha256": "521b0fbf19dba84737caadb5a8c0bec3c7387ad32b434df341cc1254a2400e4c"
   },
-  "sourceToolSha256": "f4afe4f4d1d475df5dcc8cb22fcdbdbc5e82e6fe985e56452ba00cb3431ebb51",
+  "sourceToolSha256": "99665a7b9ef672beca4f30ca6c1b45cbe0f534bf0f1dd8a35953fa0c17652f11",
   "omittedFullReferenceBanks": [
     {
       "rows": 1035,
       "sha256": "15f429a850aec0658c99be59adcd7fecf216f6c4bc4c7c1bc274a2592f9623f1",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 1035,
       "sha256": "15f429a850aec0658c99be59adcd7fecf216f6c4bc4c7c1bc274a2592f9623f1",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",
